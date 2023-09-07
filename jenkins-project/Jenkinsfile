@@ -1,0 +1,29 @@
+pipeline {
+    agent none
+    options {
+        timeout(time: 30, unit: 'MINUTES')
+    }
+    triggers {
+        pollSCM('* * * * * *')
+    }
+    tools {
+        jdk 'JDK_17'
+    }
+    stages {
+        stage('vcs'){
+            steps {
+                git url: 'https://github.com/dummyrepos/game-of-life-july23.git',
+                    branch: 'develop'
+            }
+
+        }
+        stage('build and package'){
+            sh script: 'mvn package'
+
+        }
+        stage('reporting') {
+            archiveArtifacts artifacts: '**/target/springpetclinic-*.jar'
+            junit testResults: '**/target/surefire-reports/TEST-*.xml'
+        }
+    }
+}
