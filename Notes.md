@@ -1,9 +1,12 @@
 # jenkins:
 ----------
-### What is jenkins?
+<details>
+<summary> What is jenkins?</summary><br><b>
   it is a coontinuous integartion (CI) and continuous deployment (CD) tool.
- 
-### what is CI and CD?
+ </b><details>
+
+<details>
+ <summary>what is CI and CD?</summary><br><b>
  
  CI means integrate the developers code. CD means deliver or deploy the code into the different envirnoment (QA,pre-production,production).
 
@@ -17,6 +20,7 @@
 - it is interacted with those systems with the plugins.
 - it is plugin based tool.
 - nearly 1000+ plugins jenkins will support.
+ </b><details>
 
 ### important section of jenkins?
  
