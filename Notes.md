@@ -122,9 +122,14 @@ install the plugin "email extension plugin", "email extension template plugin"
 
 configure mailserver,port,smtp authentication in "system configure"
 
+## Jfrog 
+- First we have to install jenkins
+- we have to install Jfrog Plugin => Navigate to Manage Jenkins => plugins => Available plugins => 
 
+## SonarQube Installation
 	
-
+- First we have to install jenkins
+- 
 
 
 

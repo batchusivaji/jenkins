@@ -53,3 +53,32 @@ Webhook in jenkins triggers pipeline automatically when any changes are done in 
 -------------------
 ![preview](images/cicd8.png)
 
+## ⚙ DevOps Tools for Each Phase of the DevOps Life Cycle ♾
+
+🔢. Continuous Development (CD)
+Jira: Agile project management tool aiding project management, workflows, and bug tracking.
+Git: Open-source version control system facilitating collaboration and nonlinear workflows. GitHub extends its collaborative features.
+
+🔢. Continuous Integration (CI) and Continuous Delivery (CD)
+Jenkins: Java-based, open-source tool supporting CI and CD with customizable workflows, easy installation, and numerous plugins.
+
+🔢. Continuous Testing
+Selenium: Open-source automated testing framework supporting web app automation across multiple browsers and OS.
+Bamboo: Server-based tool tightly integrated with Jira, excelling in complex build plans and parallel testing.
+
+🔢. Continuous Deployment
+Docker (container management): Packages and executes distributed apps, encouraging collaboration via Docker Hub.
+Ansible (configuration management): Automates configuration management and infrastructure orchestration.
+
+🔢. Continuous Feedback
+Jira Service Management: Centralizes feedback from diverse sources for improved communication.
+Parlor: Engages with users to collect real-time contextual insights, integrating with various business tools.
+
+🔢. Continuous Monitoring
+Prometheus: Open-source performance monitoring database enabling robust reporting and visualization.
+
+🔢. Continuous Operation
+Opsgenie: Manages incidents, predicts and resolves service disruptions, integrates with various monitoring and communication tools, ensuring appropriate notifications and automated escalations for critical issues.
+
+
+
